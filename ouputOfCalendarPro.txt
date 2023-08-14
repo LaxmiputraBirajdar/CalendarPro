@@ -1,0 +1,123 @@
+
+Ouput Of " Calendar Pro App "
+
+[ ... ] : note added by me not included in Ouput 
+
+
+
+
+Welcome to CalendarPro!
+
+Select an option:
+1. Add Event
+2. View Events
+3. Check Reminders
+4. Exit
+Select an option:1
+
+
+Enter event details :
+
+Event Name: Event 1
+Start Date and Time (time in 24-hour format) (yyyy-MM-dd HH:mm): 2023-08-15 09:45
+End Date and Time  (time in 24-hour format) (yyyy-MM-dd HH:mm):2023-08-15 11:40
+Location: College 
+Enter Event Category (work, personal, etc):Work
+Notes: 
+Do You want to add remider (y/n):y
+Reminder Date and Time  (time in 24-hour format) (yyyy-MM-dd HH:mm): 2023-08-14 12:28
+
+Event added successfully!
+
+Select an option:
+1. Add Event
+2. View Events
+3. Check Reminders
+4. Exit
+Select an option:2
+
+
+List of Events :
+
+
+Date : 2023-08-15
+Event: Event 1
+Start Date and Time: 2023-08-15T09:45
+End date and Time: 2023-08-15T11:40
+Location: College 
+category:Work
+Notes:
+
+
+
+You can also View Events by Day/week/Month/category Wise
+
+ 1. Day
+ 2. Week
+ 3. Month
+ 4. by category
+ Select Option:1
+Enter date (yyyy-MM-dd) : 2023-08-15
+
+ Events for 2023-08-15:
+Event: Event 1
+Start Date and Time: 2023-08-15T09:45
+End date and Time: 2023-08-15T11:40
+Location: College
+category:Work
+Notes:
+
+
+Select an option:
+1. Add Event
+2. View Events
+3. Check Reminders
+4. Exit
+Select an option:3
+
+
+List of Reminders :
+Reminder for event 'Event 1' at 2023-08-14T12:28
+
+Select an option:
+1. Add Event
+2. View Events
+3. Check Reminders
+4. Exit
+Select an option:1
+
+
+Enter event details :
+
+Event Name: event 2 
+Start Date and Time (time in 24-hour format) (yyyy-MM-dd HH:mm): 2023-08-15 09:45
+End Date and Time  (time in 24-hour format) (yyyy-MM-dd HH:mm):2023-08-15 11:00
+Location: room a
+Enter Event Category (work, personal, etc):personal
+Notes: Have to take laptop
+Do You want to add remider (y/n):y
+Reminder Date and Time  (time in 24-hour format) (yyyy-MM-dd HH:mm): 2023-08-15 09:00
+
+Event at the same time already exists.                                                      [ here event for the selected date is already exist so user got alert and suggested a time ]
+
+You can select a time after: 2023-08-15T11:40
+
+Select an option:
+1. Add Event
+2. View Events
+3. Check Reminders
+4. Exit
+Select an option:
+ALERT: Reminder for event 'Event 1' at 2023-08-14T12:28                                     [ Got Alert Message ] 
+3
+
+
+List of Reminders :
+Reminder for event 'event 2 ' at 2023-08-15T09:00                                           [ After alert event 1 is removed from list ... now only event 2 is available ]
+
+Select an option:
+1. Add Event
+2. View Events
+3. Check Reminders
+4. Exit
+Select an option:4
